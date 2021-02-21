@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Test-case">
+    <title>Тестовое Задание</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/Gilroy-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gilro-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gilroy-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  </head>
+  <body class="page-body">
+    <header class="page-header">
+      <h1 class="visually-hidden">Тестовое Задание</h1>
+      <div class="header">
+        <h2 class="header-title">Test</h2>
+        <nav class="header-nav">
+          <ul id="menu-list" class="header-nav__list">
+            <li><a class="header-nav__item header-nav__item-1" href="#">menu</a></li>
+            <li><a class="header-nav__item header-nav__item-2" href="#">menu</a></li>
+            <li><a class="header-nav__item header-nav__item-3" href="#">menu</a></li>
+            <li><a class="header-nav__item header-nav__item-4" href="#">menu</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="background">
+        <div class="background-content">
+          <svg class="background-content__canvas" width="100" height="100" viewBox="0 0 100 100">
+            <use xlink:href="img/sprite_auto.svg#icon-rect"></use>
+          </svg>
+          <video class="background-content__video" autoplay="">
+            <source src="img/bg-video.mp4" type="video/mp4">
+          </video>
+          <svg class="background-content__circle background-content__circle--small-1" width="930" height="930">
+            <use xlink:href="img/sprite_auto.svg#icon-circle-small-1"></use>
+          </svg>
+          <svg class="background-content__circle background-content__circle--big-1" width="1353" height="1353">
+            <use xlink:href="img/sprite_auto.svg#icon-circle-big-1"></use>
+          </svg>
+          <div class="background-content__img">
+            <object class="background-content__picture" type="image/svg+xml" data="img/icon-brain.svg"></object>
+          </div>
+          <svg class="background-content__circle background-content__circle--small-2" width="930" height="930">
+            <use xlink:href="img/sprite_auto.svg#icon-circle-small-2"></use>
+          </svg>
+          <svg class="background-content__circle background-content__circle--big-2" width="1353" height="1353">
+            <use xlink:href="img/sprite_auto.svg#icon-circle-big-2"></use>
+          </svg>
+        </div>
+        <div class="content-description content-description__left slide-current">
+            <h2 class="content-description__title">Тестовое задание</h2>
+            <button class="content-description__button button">Button</button>
+        </div>
+        <div class="content-description content-description__right">
+            <h2 class="content-description__topic">Заголовок</h2>
+            <p class="content-description__text">С другой стороны новая модель организационной деятельности позволяет оценить значение систем массового участия. Значимость этих проблем настолько очевидна, что рамки и место обучения кадров требуют от нас анализа новых предложений. Повседневная практика показывает, что укрепление и развитие структуры позволяет выполнять важные задания по</p>
+            <button class="content-description__button content-description__button--right button">Button</button>
+        </div>
+        <div class="slider-control">
+          <button class="slider-control__button" type="button" aria-label="Кнопка переключения на первый слайд"></button>
+          <button class="slider-control__button slider-control__button--current" type="button" aria-label="Кнопка переключения на второй слайд"></button>
+        </div>
+      </div>
+    </header>
+    <script src="js/main.js"></script>
+  </body>
+</html>
